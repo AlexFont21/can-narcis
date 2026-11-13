@@ -59,6 +59,7 @@ def head(l):
         "sameAs": ["https://www.airbnb.es/rooms/40228287"],
     }
     return f'''<title>{e(title)}</title>
+<meta name="google-site-verification" content="rU9s1QjO-SWNXS7mgu9d9NR70ZlHylWMAxPz_V-5BpM">
 <meta name="description" content="{e(desc)}">
 <link rel="canonical" href="{url(l)}">
 {alt}
